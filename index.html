@@ -1,19 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+  <link href="style.css" rel="stylesheet" />
+ <link href="scripts.js">
+  <head>
+    <title>SEARCH ENGINE PRO</title>
+    <meta charset="utf-8" />
+    <script>
+      
+    </script>
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<script>
-		// TODO: create a handler
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
-	</script>
-</head>
-
-<body>
-
-	<form id="searchForm">
-    <!-- TODO: add form elements -->
-	</form>
-
-</body>
+  <body>
+    <img src="HEADER.png" />
+    <center>
+      <form id="searchForm" method="GET">
+        <input type="text" name="q" id="searchBox" />
+        <label>Google<input type="radio" name="engine" value="google" /></label>
+        <label>DuckDuckGo<input type="radio" name="engine" value="duckDuckGo"/></label>
+        <label>Ask<input type="radio" name="engine" value="ask" /></label>
+        <label>Bing<input type="radio" name="engine" value="bing" /></label>
+        <input type="submit" value="Go!" />
+      </form>
+    </center>
+  </body>
+</html>

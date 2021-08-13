@@ -1,0 +1,38 @@
+body {
+    background-color: pink;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.3px;
+    font-size: 17px;
+    display: block;
+    width: 700px; height: 200px; 
+    position:absolute; 
+    top:50%; 
+    left:40%; 
+    margin-left: -200px; 
+    margin-top: -100px 
+  }
+
+  input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: skyblue;
+  }
+
+  input[type=text]:focus {
+    background-color:yellow;
+  }
+
+  input[type=button], input[type=submit] {
+    background-color: skyblue;
+    border: 2px solid black;;
+    color: pink;;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: crosshair;
+  }
+  
+  input[type="radio"]:checked + label:before {
+    background-color: pink;
+  }
