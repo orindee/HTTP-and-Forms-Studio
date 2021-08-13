@@ -1,29 +1,12 @@
 <!DOCTYPE html>
 <html>
   <link href="style.css" rel="stylesheet" />
- <link href="scripts.js"
+ <link href="scripts.js">
   <head>
     <title>SEARCH ENGINE PRO</title>
     <meta charset="utf-8" />
     <script>
-      function setSearchEngine(event) {
-        let actions = {
-          google: "https://www.google.com/search?q=",
-          ask: "https://www.ask.com/web?q=",
-          bing: "https://www.bing.com/search?q=",
-          duckDuckGo: "https://duckduckgo.com/?q=",
-        };
-
-        let form = document.getElementById("searchForm");
-        let selectedEngine = document.querySelector("[name=engine]:checked").value;
-
-        form.setAttribute("action", actions[selectedEngine]); 
-      }
-      window.addEventListener("load", function () {
-        console.log("Window has loaded.");
-        let userInput = document.querySelector("#searchForm");
-        userInput.addEventListener("submit", setSearchEngine);
-      });
+      
     </script>
   </head>
 
